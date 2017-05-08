@@ -2,9 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { CursosModule } from './cursos/cursos.module';
 
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    CursosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
