@@ -6,12 +6,14 @@ import { CursosModule } from './cursos/cursos.module';
 
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
+import { TodoComponent } from './br-examples-todo/todo/todo.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MeuPrimeiroComponent
+    MeuPrimeiroComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,

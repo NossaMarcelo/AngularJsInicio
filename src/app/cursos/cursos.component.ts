@@ -15,7 +15,7 @@ export class CursosComponent implements OnInit {
   constructor() { 
     this.nomePortal = 'http://gmail.com';
 
-    //for(let i=0;i<this.cursos.length; i++){
+    //5for(let i=0;i<this.cursos.length; i++){
     //  let curso = this.cursos[i];
     //}
     //Vamos traduzir esse código inteiro para o component html.
