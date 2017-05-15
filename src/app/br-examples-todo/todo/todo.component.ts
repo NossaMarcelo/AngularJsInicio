@@ -14,7 +14,7 @@ export class TodoComponent implements OnInit {
 
   constructor() {
     this.newTodo='';
-    this.todos = [];
+    this.todos = []; // TESTE INTEGRAçÃO
     
    }
 
